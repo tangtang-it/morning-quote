@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI Search Crawlers (GEO Access)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+Sitemap: https://morning-quote.com/sitemap.xml

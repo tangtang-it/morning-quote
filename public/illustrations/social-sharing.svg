@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="phone-frame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="screen-sunrise" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="60%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="soft-shadow-3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#1F2937" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <ellipse cx="300" cy="410" rx="240" ry="18" fill="#E5E7EB" opacity="0.6"/>
+  <g transform="translate(230, 50)" filter="url(#soft-shadow-3)">
+    <rect x="0" y="0" width="160" height="310" rx="28" fill="url(#phone-frame)"/>
+    <rect x="7" y="7" width="146" height="296" rx="22" fill="#000000"/>
+    <rect x="9" y="9" width="142" height="292" rx="20" fill="url(#screen-sunrise)"/>
+    <rect x="52" y="16" width="56" height="12" rx="6" fill="#111827"/>
+    <circle cx="80" cy="110" r="26" fill="#FFFFFF" opacity="0.85"/>
+    <text x="80" y="115" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="700" fill="#D97706">Rise &amp; Shine</text>
+    <rect x="35" y="150" width="90" height="6" rx="3" fill="#B45309" opacity="0.5"/>
+    <rect x="45" y="162" width="70" height="6" rx="3" fill="#B45309" opacity="0.5"/>
+    <rect x="40" y="245" width="80" height="24" rx="12" fill="#FFFFFF" filter="url(#soft-shadow-3)"/>
+    <text x="80" y="261" text-anchor="middle" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#1F2937">Share Story</text>
+  </g>
+  <g transform="translate(130, 110)" filter="url(#soft-shadow-3)">
+    <circle cx="30" cy="30" r="28" fill="#25D366"/>
+    <path d="M 23 18 C 17.5 18 13 22.5 13 28 C 13 30.2 13.7 32.2 15 33.8 L 13.5 39.5 L 19.5 38 C 20.6 38.6 21.8 39 23 39 C 28.5 39 33 34.5 33 29 C 33 23.5 28.5 18 23 18 Z" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(420, 160)" filter="url(#soft-shadow-3)">
+    <circle cx="28" cy="28" r="26" fill="#E1306C"/>
+    <rect x="18" y="18" width="20" height="20" rx="6" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <circle cx="28" cy="28" r="5" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <circle cx="34" cy="22" r="1.5" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(110, 230)" filter="url(#soft-shadow-3)">
+    <rect x="0" y="0" width="85" height="50" rx="10" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <rect x="12" y="10" width="30" height="30" rx="4" fill="#F59E0B" opacity="0.3"/>
+    <text x="50" y="28" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#1F2937">1:1</text>
+    <text x="50" y="38" font-family="'Inter', sans-serif" font-size="8" fill="#9CA3AF">Square</text>
+  </g>
+  <g transform="translate(420, 260)" filter="url(#soft-shadow-3)">
+    <rect x="0" y="0" width="85" height="50" rx="10" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <rect x="12" y="10" width="18" height="30" rx="4" fill="#D97706" opacity="0.3"/>
+    <text x="40" y="28" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#1F2937">9:16</text>
+    <text x="40" y="38" font-family="'Inter', sans-serif" font-size="8" fill="#9CA3AF">Story</text>
+  </g>
+</svg>

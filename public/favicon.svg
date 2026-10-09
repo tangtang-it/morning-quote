@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brand-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="sun-fill" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 品牌圆角基底 (Squircle Container) -->
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="url(#brand-bg)" stroke="#FCD34D" stroke-width="3"/>
+
+  <!-- 100% 保持与 Header lucide:sunrise 一致的日出破晓矢量图形 -->
+  <g transform="translate(16, 16) scale(4)" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 地平线 -->
+    <path d="M22 22H2" stroke="#B45309" stroke-width="2.2"/>
+    <!-- 冉冉升起的初阳 (半圆) -->
+    <path d="M16 18a4 4 0 0 0-8 0" fill="url(#sun-fill)"/>
+    <!-- 破晓向上箭头与光束 -->
+    <path d="M12 2v8"/>
+    <path d="m8 6 4-4 4 4"/>
+    <!-- 朝霞微芒 -->
+    <path d="m4.93 10.93 1.41 1.41"/>
+    <path d="m19.07 10.93-1.41 1.41"/>
+    <path d="M2 18h2"/>
+    <path d="M20 18h2"/>
+  </g>
+</svg>

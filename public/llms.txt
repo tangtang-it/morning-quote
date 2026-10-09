@@ -1,0 +1,24 @@
+# MorningQuote
+
+> Create personalized good morning quote cards in seconds. 100% free client-side card generator with custom names, sunrise aesthetics, and instant HD downloads for WhatsApp and Instagram.
+
+## Overview
+MorningQuote (https://morning-quote.com/) is a lightweight, privacy-first web application for generating aesthetic morning greeting cards and browsing curated daily inspirational quotes.
+
+## Core Capabilities
+- **Aesthetic Greeting Card Generator**: Real-time rendering via HTML5 Canvas with zero server-side processing.
+- **Multi-Format Support**: Instant toggle between 1:1 Square (1080x1080) for Instagram posts/WhatsApp chats and 9:16 Story (1080x1920) for WhatsApp Status and Reels.
+- **Curated Quote Library**: 50+ handpicked quotes categorized into Inspirational, Love & Romance, For Friends, Monday Motivation, Blessings & Peace, and Short & Sweet.
+- **Public Domain Citations**: Quotes attributed to verified historical authors (Marcus Aurelius, William Arthur Ward, Ralph Waldo Emerson, Henry David Thoreau, Rumi, Khalil Gibran).
+- **Zero Privacy Footprint**: All personalization, recipient names, and custom messages are processed locally on the user's device.
+
+## Key Pages
+- [Homepage (English)](https://morning-quote.com/): Free card maker and daily quote library.
+- [Spanish Edition](https://morning-quote.com/es/): Generador de tarjetas de buenos dias gratis en HD.
+- [Portuguese Edition](https://morning-quote.com/pt/): Criador de cartoes de bom dia gratis em HD.
+- [About Us](https://morning-quote.com/about.html): Background, editorial philosophy, and team attribution.
+- [Contact](https://morning-quote.com/contact.html): Support and feedback channels.
+- [Sitemap](https://morning-quote.com/sitemap.xml): Full XML sitemap for crawlers.
+
+## Authorship & Attribution
+MorningQuote is curated and maintained by the MorningQuote Editorial Team. Literary quotes are selected from public domain works and verified philosophical writings.

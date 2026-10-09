@@ -1,0 +1,34 @@
+{
+  "name": "morning-quote",
+  "version": "1.0.0",
+  "description": "An ultra-fast, client-side Morning Quote & Greeting Card Generator built with Vite, TypeScript & HTML5 Canvas.",
+  "type": "module",
+  "homepage": "https://morning-quote.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangtang-it/morning-quote.git"
+  },
+  "keywords": [
+    "quote-generator",
+    "greeting-cards",
+    "canvas",
+    "canvas-renderer",
+    "morning-quotes",
+    "vite",
+    "typescript",
+    "open-source"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "iconify-icon": "^3.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vite": "^6.2.0"
+  },
+  "license": "MIT"
+}
